@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row justify-between items-center max-w-5xl mx-auto">
         <div>
           <Image
-            src="http://web-imaray.local/wp-content/uploads/2026/01/logo-imaray.png"
+            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/logo-imaray.png"
             alt="Imaray Ulloa Logo"
             width={200}
             height={200}
@@ -16,7 +16,7 @@ export default function Footer() {
         <div className="flex">
           <a href="">
             <Image
-              src="http://web-imaray.local/wp-content/uploads/2026/01/ig-ico.png"
+              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/ig-ico.png"
               alt="Instagram Icon"
               width={100}
               height={100}
@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
           <a href="">
             <Image
-              src="http://web-imaray.local/wp-content/uploads/2026/01/fb-ico.png"
+              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/fb-ico.png"
               alt="Facebook Icon"
               width={100}
               height={100}
@@ -34,7 +34,7 @@ export default function Footer() {
           </a>
           <a href="">
             <Image
-              src="http://web-imaray.local/wp-content/uploads/2026/01/yt-ico.png"
+              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-ico.png"
               alt="YouTube Icon"
               width={100}
               height={100}
@@ -43,7 +43,7 @@ export default function Footer() {
           </a>
           <a href="">
             <Image
-              src="http://web-imaray.local/wp-content/uploads/2026/01/tiktok-ico.png"
+              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/tiktok-ico.png"
               alt="TikTok Icon"
               width={100}
               height={100}
