@@ -13,7 +13,7 @@ export default function Home() {
     <main className="overflow-hidden">
       <div className="relative">
         <Image
-          src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/slider-principal.png"
+          src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/slider-principal.png"
           alt="Slider principal Imaray Ulloa"
           width={1920}
           height={720}
@@ -21,14 +21,14 @@ export default function Home() {
         />
         <div className="">
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/logo-imaray.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/logo-imaray.png"
             alt="Logo header"
             width={140}
             height={140}
             className="absolute md:top-10 md:left-20 top-5 left-5"
           />
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/hamburger-menu.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/hamburger-menu.png"
             alt="Logo header"
             width={40}
             height={40}
@@ -38,14 +38,14 @@ export default function Home() {
         </div>
         <div className={`bg-white absolute w-full h-[70vh] md:h-[85vh] top-0 right-0 md:w-80 pt-12 pl-12 menu transition-transform duration-400 z-10 ${activeMenu ? 'translate-x-0' : 'translate-x-400'}`} >
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/logo-imaray-black.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/logo-imaray-black.png"
             alt="Logo header"
             width={150}
             height={150}
             className=""
           />
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/cross-ico.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/cross-ico.png"
             alt="Close icono"
             width={20}
             height={20}
@@ -65,28 +65,28 @@ export default function Home() {
         <div className="absolute bottom-5 left-20">
           <div className="flex gap-4">
             <Image
-              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/ig-ico-transparent.png"
+              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/ig-ico-transparent.png"
               alt="Instagram transparente"
               width={40}
               height={40}
               className=""
             />
             <Image
-              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/fb-ico-transparent.png"
+              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/fb-ico-transparent.png"
               alt="Instagram transparente"
               width={40}
               height={40}
               className=""
             />
             <Image
-              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-ico-transparent.png"
+              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-ico-transparent.png"
               alt="Instagram transparente"
               width={40}
               height={40}
               className=""
             />
             <Image
-              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/tiktok-ico-transparent.png"
+              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/tiktok-ico-transparent.png"
               alt="Instagram transparente"
               width={40}
               height={40}
@@ -112,7 +112,7 @@ export default function Home() {
           </div>
           <div>
             <Image
-              src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/Sold-out.png"
+              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/Sold-out.png"
               alt="Imaray Ulloa"
               width={400}
               height={300}
@@ -120,14 +120,14 @@ export default function Home() {
             />
           </div>
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/heart-right.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/heart-right.png"
             alt="Icono corazon derecha"
             width={150}
             height={150}
             className="absolute md:-left-10 md:top-2/3 -left-15 -bottom-20 md:bottom-auto"
           />
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/heart-left.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/heart-left.png"
             alt="Icono corazon izquierda"
             width={150}
             height={150}
@@ -137,13 +137,13 @@ export default function Home() {
       </div>
       <div
         className="bg-cover bg-top-right mt-10 md:h-[70vh] 2xl:h-[55vh] relative font-sans"
-        style={{ backgroundImage: "url('http://admin.imarayulloa.com/wp-content/uploads/2026/01/fondo-yt.png')" }}>
+        style={{ backgroundImage: "url('https://admin.imarayulloa.com/wp-content/uploads/2026/01/fondo-yt.png')" }}>
         <div className="max-w-5xl mx-auto relative md:h-[70vh] 2xl:h-[55vh] pt-18">
           <h3 className="text-center font-bold text-2xl md:text-3xl pt-4">CANALES PRINCIPALES DE YOUTUBE</h3>
           <div className="flex flex-col md:flex-row items-center justify-center gap-14 md:gap-18 md:h-[45vh] 2xl:h-[40vh] py-10 md:py-0">
             <div className="flex flex-col items-center ">
               <Image
-                src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/yt.png"
+                src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt.png"
                 alt="Youtube Icono"
                 width={100}
                 height={100}
@@ -156,7 +156,7 @@ export default function Home() {
             </div>
             <div className="flex flex-col items-center">
               <Image
-                src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/yt.png"
+                src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt.png"
                 alt="Youtube Icono"
                 width={100}
                 height={100}
@@ -170,14 +170,14 @@ export default function Home() {
             </div>
           </div>
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-channel.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-channel.png"
             alt="Youtube Channel Imaray"
             width={250}
             height={250}
             className="absolute left-5 bottom-0 hidden md:block"
           />
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-podcast.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-podcast.png"
             alt="Youtube Podcast Imaray"
             width={250}
             height={250}
@@ -205,7 +205,7 @@ export default function Home() {
             </a>
           </div>
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/evento-miami-scaled.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/evento-miami-scaled.png"
             alt="Youtube Podcast Imaray"
             width={450}
             height={450}
@@ -213,9 +213,9 @@ export default function Home() {
           />
         </div>
       </div>
-      <div className="md:h-[90vh] 2xl:h-[60vh] bg-center bg-cover relative overflow-hidden" style={{ backgroundImage: "url('http://admin.imarayulloa.com/wp-content/uploads/2026/01/fondo-contacto-imaray.png')" }}>
+      <div className="md:h-[90vh] 2xl:h-[60vh] bg-center bg-cover relative overflow-hidden" style={{ backgroundImage: "url('https://admin.imarayulloa.com/wp-content/uploads/2026/01/fondo-contacto-imaray.png')" }}>
           <Image
-            src="http://admin.imarayulloa.com/wp-content/uploads/2026/01/imaray-contacto.png"
+            src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/imaray-contacto.png"
             alt="Contacto Imaray Ulloa"
             width={450}
             height={450}
