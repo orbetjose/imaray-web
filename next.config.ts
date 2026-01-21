@@ -9,8 +9,14 @@ const nextConfig: NextConfig = {
         port: "",
         pathname: "/wp-content/uploads/**",
       },
+      {
+        protocol: "https",
+        hostname: "admin.imarayulloa.com",
+        port: "",
+        pathname: "/**",
+      },
     ],
-    unoptimized: process.env.NODE_ENV === 'development',
+    unoptimized: process.env.NODE_ENV === "development",
   },
 };
 
