@@ -267,18 +267,18 @@ export default function Home() {
         <div className="md:max-w-5xl mx-auto flex flex-col items-center gap-6 px-8 md:px-0">
           <span className="text-white bg-purple px-5 rounded-xl py-1 font-black text-3xl w-fit">Show de la tóxica</span>
           <p className="text-lg">Un vistazo al show que combina actitud, emoción y espectáculo en un solo escenario.</p>
-          <div className="relative md:max-w-4xl pt-2 rounded-2xl md:rounded-4xl overflow-hidden">
+          <div className="relative md:max-w-4xl 2xl:max-w-6xl pt-2 rounded-2xl md:rounded-4xl overflow-hidden">
             <Image
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/icono-play.png"
               alt="Icono play video"
               width={70}
               height={70}
-              className={`h-10 w-10 md:auto md:w-auto absolute right-1/2 top-1/2 translate-x-1/2 -translate-y-1/2 ${activeVideo ? "hidden" : "block"} cursor-pointer`}
+              className={`h-10 w-10 md:h-15 md:w-15 absolute right-1/2 top-1/2 translate-x-1/2 -translate-y-1/2 ${activeVideo ? "hidden" : "block"} cursor-pointer`}
             />
             <video
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/VIDEO-WEB.mp4"
               controls
-              className="cursor-pointer h-80 object-cover"
+              className="cursor-pointer h-80 md:h-auto object-cover"
               onClick={() => setActiveVideo(!activeVideo)}></video>
           </div>
         </div>
