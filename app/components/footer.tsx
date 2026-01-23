@@ -14,7 +14,7 @@ export default function Footer() {
           />
         </div>
         <div className="flex">
-          <a href="">
+          <a target="_blank" href="https://www.instagram.com/imarayulloa/">
             <Image
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/ig-ico.png"
               alt="Instagram Icon"
@@ -23,7 +23,7 @@ export default function Footer() {
               className=""
             />
           </a>
-          <a href="">
+          <a target="_blank" href="https://www.facebook.com/imarayulloaoficial">
             <Image
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/fb-ico.png"
               alt="Facebook Icon"
@@ -32,7 +32,7 @@ export default function Footer() {
               className=""
             />
           </a>
-          <a href="">
+          <a target="_blank" href="https://www.youtube.com/@ImarayUlloa1">
             <Image
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-ico.png"
               alt="YouTube Icon"
@@ -41,7 +41,7 @@ export default function Footer() {
               className=""
             />
           </a>
-          <a href="">
+          <a  target="_blank" href="https://www.tiktok.com/@imarayulloa1">
             <Image
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/tiktok-ico.png"
               alt="TikTok Icon"

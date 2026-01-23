@@ -11,7 +11,6 @@ export default function Home() {
 
   const domain = process.env.WP_PUBLIC_DOMAIN;
 
-
   return (
     <main className="overflow-hidden">
       <div className="relative">
@@ -51,11 +50,10 @@ export default function Home() {
           />
           <div className="pt-12">
             <ul className="text-black font-sans font-bold uppercase text-lg space-y-6">
-              <li>Podcast</li>
-              <li>Especial</li>
-              <li>Película</li>
-              <li>Imaray</li>
-              <li className="text-purple">Comprar tickets &#8599;</li>
+              <li><a target="_blank" href="https://www.youtube.com/@ImarayUlloaPodcast">Podcast</a></li>
+              <li><a target="_blank" href="https://www.youtube.com/@ImarayUlloa1">Especial</a></li>
+              <li>Película <br /> (Muy pronto)</li>
+              <li className="text-purple"><a href="mailto:imarobe42@gmail.com">Comprar tickets &#8599;</a></li>
             </ul>
           </div>
         </div>
@@ -68,15 +66,15 @@ export default function Home() {
         />
         <Image
           src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/imaray-banner-2.png"
-          width={350}
-          height={350}
+          width={400}
+          height={400}
           alt="Imaray Ulloa Foto 1"
-          className="absolute right-50 bottom-0 z-1 2xl:h-120 2xl:w-auto 2xl:right-85 hidden md:block"
+          className="absolute right-72 bottom-0 z-1 2xl:h-120 2xl:w-auto 2xl:right-85 hidden md:block"
         />
         <Image
           src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/imaray-banner-1.png"
-          width={250}
-          height={250}
+          width={310}
+          height={310}
           alt="Imaray Ulloa Foto 2"
           className="absolute right-0 bottom-0 2xl:h-90 2xl:w-auto hidden md:block"
         />
@@ -94,53 +92,63 @@ export default function Home() {
           alt="Imaray Ulloa Foto 2"
           className="absolute left-10 top-30 md:left-150 md:top-30 2xl:left-220"
         />
-        <div className="absolute bottom-18 left-20 md:bottom-25 md:left-50 2xl:bottom-55 3xl:left-85">
+        <div className="absolute bottom-18 left-20 md:bottom-30 md:left-50 2xl:bottom-55 3xl:left-85">
           <div className="flex justify-center gap-4 pb-4">
-            <Image
-              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/ig-ico-transparent.png"
-              alt="Instagram transparente"
-              width={40}
-              height={40}
-              className=""
-            />
-            <Image
-              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/fb-ico-transparent.png"
-              alt="Instagram transparente"
-              width={40}
-              height={40}
-              className=""
-            />
-            <Image
-              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-ico-transparent.png"
-              alt="Instagram transparente"
-              width={40}
-              height={40}
-              className=""
-            />
-            <Image
-              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/tiktok-ico-transparent.png"
-              alt="Instagram transparente"
-              width={40}
-              height={40}
-              className=""
-            />
+            <a target="_blank" href="https://www.instagram.com/imarayulloa/">
+              <Image
+                src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/ig-ico-transparent.png"
+                alt="Instagram transparente"
+                width={50}
+                height={50}
+                className=""
+              />
+            </a>
+            <a target="_blank" href="https://www.facebook.com/imarayulloaoficial">
+              <Image
+                src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/fb-ico-transparent.png"
+                alt="Instagram transparente"
+                width={50}
+                height={50}
+                className=""
+              />
+            </a>
+            <a target="_blank" href="https://www.youtube.com/@ImarayUlloa1">
+              <Image
+                src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-ico-transparent.png"
+                alt="Instagram transparente"
+                width={50}
+                height={50}
+                className=""
+              />
+            </a>
+            <a target="_blank" href="https://www.tiktok.com/@imarayulloa1">
+              <Image
+                src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/tiktok-ico-transparent.png"
+                alt="Instagram transparente"
+                width={50}
+                height={50}
+                className=""
+              />
+            </a>
           </div>
           <div
-            className="bg-contain bg-center py-4 bg-no-repeat mb-4"
+            className="bg-contain bg-center py-4 bg-no-repeat mb-6"
             style={{ backgroundImage: "url('https://admin.imarayulloa.com/wp-content/uploads/2026/01/bg-text.png')" }}>
-            <span className="font-sans text-xl  md:text-3xl 2xl:text-4xl block text-center">Vive la vida con</span>
+            <span className="font-sans text-xl  md:text-3xl 2xl:text-4xl block text-center text-white">
+              Vive la vida con
+            </span>
           </div>
           <Image
             src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/logo-imaray.png"
             alt="Logo Imaray Slider"
             width={300}
             height={300}
-            className="h-15 md:h-20 2xl:h-30 w-auto"
+            className="h-15 md:h-25 2xl:h-30 w-auto"
           />
           <h1 className="hidden">Imaray</h1>
         </div>
       </div>
-      <div className=" bg-black py-16">
+      <div className=" bg-black pt-16 pb-26">
         <div className="max-w-5xl mx-auto flex flex-col gap-8 md:gap-0 md:flex-row justify-center items-center relative md:px-0 px-8">
           <div className="text-white space-y-4 md:max-w-2/5 font-sans">
             <h3 className="font-bold uppercase text-2xl">Soy Imaray Ulloa,</h3>
@@ -156,7 +164,7 @@ export default function Home() {
           </div>
           <div>
             <Image
-              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/Sold-out.png"
+              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/Sold-out.webp"
               alt="Imaray Ulloa"
               width={400}
               height={300}
@@ -180,38 +188,38 @@ export default function Home() {
         </div>
       </div>
       <div
-        className="bg-cover bg-top-right mt-10 relative font-sans"
+        className="bg-cover bg-top-right -mt-10 relative font-sans"
         style={{ backgroundImage: "url('https://admin.imarayulloa.com/wp-content/uploads/2026/01/fondo-yt.png')" }}>
         <div className="md:max-w-5xl 2xl:max-w-6xl mx-auto relative pt-18">
-          <h3 className="text-center font-bold text-2xl md:text-3xl pt-4  2xl:pt-24 2xl:-mb-6 ">
+          <h3 className="text-center font-bold text-2xl md:text-3xl pt-4  2xl:pt-24 2xl:-mb-6 text-white">
             CANALES PRINCIPALES DE YOUTUBE
           </h3>
           <div className="flex flex-col md:flex-row items-center justify-center gap-14 md:gap-18 md:h-[45vh] 2xl:h-[40vh] py-10 md:py-0">
             <div className="flex flex-col items-center ">
-              <Image
+              <a target="_blank" href="https://www.youtube.com/@ImarayUlloa1"><Image
                 src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt.png"
                 alt="Youtube Icono"
                 width={100}
                 height={100}
                 className="h-18 object-contain"
-              />
+              /></a>
               <div className="flex flex-col gap-2 items-center">
-                <span className="font-bold text-2xl">Imaray Ulloa</span>
-                <span className="bg-white text-black px-4 rounded-xl">Ver canal</span>
+                <span className="font-bold text-2xl text-white">Imaray Ulloa</span>
+                <span className="bg-white text-black px-4 rounded-xl"><a target="_blank" href="https://www.youtube.com/@ImarayUlloa1">Ver canal</a></span>
               </div>
             </div>
             <div className="flex flex-col items-center">
-              <Image
+              <a target="_blank" href="https://www.youtube.com/@ImarayUlloaPodcast"><Image
                 src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt.png"
                 alt="Youtube Icono"
                 width={100}
                 height={100}
                 className="h-18 object-contain"
-              />
+              /></a>
               <div className="flex flex-col gap-1 items-center">
-                <span className="font-bold text-2xl">Imaray Ulloa</span>
-                <span className="text-2xl">Podcast</span>
-                <span className="bg-white text-black px-4 rounded-xl">Ver canal</span>
+                <span className="font-bold text-2xl text-white">Imaray Ulloa</span>
+                <span className="text-2xl text-white">Podcast</span>
+                <span className="bg-white text-black px-4 rounded-xl"><a target="_blank" href="https://www.youtube.com/@ImarayUlloaPodcast">Ver canal</a></span>
               </div>
             </div>
           </div>
@@ -252,7 +260,7 @@ export default function Home() {
           </div>
         </div>
         <Image
-          src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/evento-miami-scaled.png"
+          src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/evento-miami-scaled-1-scaled.webp"
           alt="Youtube Podcast Imaray"
           width={450}
           height={450}
@@ -266,8 +274,10 @@ export default function Home() {
         className="bg-cover bg-center py-20 font-sans">
         <div className="md:max-w-5xl mx-auto flex flex-col items-center gap-6 px-8 md:px-0">
           <span className="text-white bg-purple px-5 rounded-xl py-1 font-black text-3xl w-fit">Show de la tóxica</span>
-          <p className="text-lg">Un vistazo al show que combina actitud, emoción y espectáculo en un solo escenario.</p>
-          <div className="relative md:max-w-4xl 2xl:max-w-6xl pt-2 rounded-2xl md:rounded-4xl overflow-hidden">
+          <p className="text-lg text-white md:max-w-lg text-center">
+            Un vistazo al show que combina actitud, emoción y espectáculo en un solo escenario.
+          </p>
+          <div className="relative md:max-w-4xl 2xl:max-w-6xl pt-2  overflow-hidden">
             <Image
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/icono-play.png"
               alt="Icono play video"
@@ -278,7 +288,7 @@ export default function Home() {
             <video
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/VIDEO-WEB.mp4"
               controls
-              className="cursor-pointer h-80 md:h-auto object-cover"
+              className="cursor-pointer h-80 md:h-auto object-cover rounded-2xl md:rounded-4xl"
               onClick={() => setActiveVideo(!activeVideo)}></video>
           </div>
         </div>
