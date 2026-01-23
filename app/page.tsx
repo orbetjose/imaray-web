@@ -9,6 +9,8 @@ export default function Home() {
   const [activeMenu, setActiveMenu] = useState(false);
   const [activeVideo, setActiveVideo] = useState(false);
 
+  const domain = process.env.WP_PUBLIC_DOMAIN;
+
 
   return (
     <main className="overflow-hidden">
@@ -58,41 +60,41 @@ export default function Home() {
           </div>
         </div>
         <Image
-          src="http://web-imaray.local/wp-content/uploads/2026/01/fondo-principal.webp"
+          src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/fondo-principal.webp"
           alt="Slider principal Imaray Ulloa"
           width={1920}
           height={720}
           className="w-full h-[70vh] md:h-[85vh]  object-cover object-center"
         />
         <Image
-          src="http://web-imaray.local/wp-content/uploads/2026/01/imaray-banner-2.png"
+          src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/imaray-banner-2.png"
           width={350}
           height={350}
           alt="Imaray Ulloa Foto 1"
-          className="absolute right-50 bottom-0 z-1 2xl:h-120 2xl:w-auto 2xl:right-85"
+          className="absolute right-50 bottom-0 z-1 2xl:h-120 2xl:w-auto 2xl:right-85 hidden md:block"
         />
         <Image
-          src="http://web-imaray.local/wp-content/uploads/2026/01/imaray-banner-1.png"
+          src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/imaray-banner-1.png"
           width={250}
           height={250}
           alt="Imaray Ulloa Foto 2"
-          className="absolute right-0 bottom-0 2xl:h-90 2xl:w-auto "
+          className="absolute right-0 bottom-0 2xl:h-90 2xl:w-auto hidden md:block"
         />
         <Image
-          src="http://web-imaray.local/wp-content/uploads/2026/01/corazon-banner-1.png"
+          src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/corazon-banner-1.png"
           width={50}
           height={50}
           alt="Imaray Ulloa Foto 2"
-          className="absolute right-20 top-35 2xl:right-55"
+          className="absolute right-10 md:right-20 top-35 2xl:right-55"
         />
         <Image
-          src="http://web-imaray.local/wp-content/uploads/2026/01/corazon-banner-2.png"
+          src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/corazon-banner-2.png"
           width={50}
           height={50}
           alt="Imaray Ulloa Foto 2"
-          className="absolute left-150 top-30 2xl:left-220"
+          className="absolute left-10 top-30 md:left-150 md:top-30 2xl:left-220"
         />
-        <div className="absolute md:bottom-25 md:left-50 2xl:bottom-55 3xl:left-85">
+        <div className="absolute bottom-18 left-20 md:bottom-25 md:left-50 2xl:bottom-55 3xl:left-85">
           <div className="flex justify-center gap-4 pb-4">
             <Image
               src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/ig-ico-transparent.png"
@@ -125,15 +127,15 @@ export default function Home() {
           </div>
           <div
             className="bg-contain bg-center py-4 bg-no-repeat mb-4"
-            style={{ backgroundImage: "url('http://web-imaray.local/wp-content/uploads/2026/01/bg-text.png')" }}>
-            <span className="font-sans text-3xl 2xl:text-4xl block text-center">Vive la vida con</span>
+            style={{ backgroundImage: "url('https://admin.imarayulloa.com/wp-content/uploads/2026/01/bg-text.png')" }}>
+            <span className="font-sans text-xl  md:text-3xl 2xl:text-4xl block text-center">Vive la vida con</span>
           </div>
           <Image
             src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/logo-imaray.png"
             alt="Logo Imaray Slider"
             width={300}
             height={300}
-            className="md:h-20 2xl:h-30 w-auto"
+            className="h-15 md:h-20 2xl:h-30 w-auto"
           />
           <h1 className="hidden">Imaray</h1>
         </div>
@@ -259,7 +261,7 @@ export default function Home() {
       </div>
       <div
         style={{
-          backgroundImage: "url('http://web-imaray.local/wp-content/uploads/2026/01/fondo-video.webp')",
+          backgroundImage: "url('https://admin.imarayulloa.com/wp-content/uploads/2026/01/fondo-video.webp')",
         }}
         className="bg-cover bg-center py-20 font-sans">
         <div className="md:max-w-5xl mx-auto flex flex-col items-center gap-6 px-8 md:px-0">
@@ -267,14 +269,14 @@ export default function Home() {
           <p className="text-lg">Un vistazo al show que combina actitud, emoción y espectáculo en un solo escenario.</p>
           <div className="relative md:max-w-4xl pt-2 rounded-2xl md:rounded-4xl overflow-hidden">
             <Image
-              src="http://web-imaray.local/wp-content/uploads/2026/01/icono-play.png"
+              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/icono-play.png"
               alt="Icono play video"
               width={70}
               height={70}
               className={`h-10 w-10 md:auto md:w-auto absolute right-1/2 top-1/2 translate-x-1/2 -translate-y-1/2 ${activeVideo ? "hidden" : "block"} cursor-pointer`}
             />
             <video
-              src="http://web-imaray.local/wp-content/uploads/2026/01/VIDEO-WEB.mp4"
+              src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/VIDEO-WEB.mp4"
               controls
               className="cursor-pointer h-80 object-cover"
               onClick={() => setActiveVideo(!activeVideo)}></video>
