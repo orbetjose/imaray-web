@@ -11,6 +11,7 @@
   --font-sans: var(--font-poppins), ui-sans-serif, system-ui, sans-serif;
   --color-purple: #8704f8;
   --color-gray: #cccccc;
+  --breakpoint-3xl: 120rem;
 }
 
 @media (prefers-color-scheme: dark) {
