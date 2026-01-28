@@ -10,6 +10,7 @@ export default function ContactForm() {
     numero: "",
     mensaje: "",
   });
+  const [aceptaTerminos, setAceptaTerminos] = useState(false);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
 
@@ -32,6 +33,7 @@ export default function ContactForm() {
         setStatus("success");
         setMessage("¡Formulario enviado exitosamente!");
         setFormData({ nombre: "", correo: "", numero: "", mensaje: "" });
+        setAceptaTerminos(false);
       } else {
         setStatus("error");
         setMessage(data.error || "Error al enviar el formulario");
@@ -125,6 +127,23 @@ export default function ContactForm() {
             className="w-full px-4 py-2 border rounded-lg bg-white focus:outline-none focus:border-2 focus:border-purple text-black font-sans"
           />
         </div>
+
+        <div className="flex items-center gap-2">
+          <input
+            type="checkbox"
+            id="aceptaTerminos"
+            checked={aceptaTerminos}
+            onChange={(e) => setAceptaTerminos(e.target.checked)}
+            required
+            className="w-4 h-4 accent-purple cursor-pointer"
+          />
+          <label
+            htmlFor="aceptaTerminos"
+            className="text-sm font-sans cursor-pointer text-white">
+            Acepto el tratamiento de datos personales
+          </label>
+        </div>
+
         <div className="w-40 bg-transparent border border-white text-white py-1 px-4 rounded-3xl hover:bg-purple hover:border-purple hover:text-white disabled:opacity-50 font-sans font-black flex justify-evenly items-center">
           <button
             type="submit"

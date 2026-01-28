@@ -297,7 +297,7 @@ export default function Home() {
             <p className="font-bold pb-4">¡Nos vemos en el escenario!</p>
             <p className="font-bold pb-4">Prepárate para reír - Tour 2026</p>
             <a
-              href=""
+              href="mailto:imarobe42@gmail.com"
               className="text-white bg-purple px-4 rounded-xl text-lg py-1">
               Únete a nuestra lista de espera tour 2026
             </a>
