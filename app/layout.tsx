@@ -46,8 +46,8 @@ const poppinsFont = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Imaray Ulloa",
-  description: "Imaray Ulloa - YouTuber",
+  title: "Imaray Ulloa | Actriz, Comediante e Influencer Cubana en YouTube",
+  description: "Sigue a Imaray Ulloa en YouTube: videos de comedia, vida cotidiana, sketches y contenido original de una de las actrices e influencers cubanas más populares.",
 };
 
 export default function RootLayout({
