@@ -165,8 +165,8 @@ export default function Home() {
           <Image
             src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/logo-imaray.png"
             alt="Logo Imaray Slider"
-            width={300}
-            height={300}
+            width={942}
+            height={277}
             className="h-15 md:h-25 2xl:h-30 w-auto"
           />
           <h1 className="hidden">Imaray</h1>
@@ -278,8 +278,8 @@ export default function Home() {
         <Image
           src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-podcast.png"
           alt="Youtube Podcast Imaray"
-          width={290}
-          height={290}
+          width={1920}
+          height={1000}
           className="absolute right-0 bottom-0 hidden md:block 2xl:h-130 2xl:w-auto 2xl:right-0"
         />
       </div>
