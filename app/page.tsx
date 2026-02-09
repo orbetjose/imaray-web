@@ -278,8 +278,8 @@ export default function Home() {
         <Image
           src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/yt-podcast.png"
           alt="Youtube Podcast Imaray"
-          width={1920}
-          height={1000}
+          width={290}
+          height={290}
           className="absolute right-0 bottom-0 hidden md:block 2xl:h-130 2xl:w-auto 2xl:right-0"
         />
       </div>
@@ -306,8 +306,8 @@ export default function Home() {
         <Image
           src="https://admin.imarayulloa.com/wp-content/uploads/2026/01/evento-miami-scaled-1-scaled.webp"
           alt="Youtube Podcast Imaray"
-          width={450}
-          height={450}
+          width={1920}
+          height={1000}
           className="absolute right-0 bottom-0 md:w-[60%] md:h-[101%]  object-cover object-top hidden md:block"
         />
       </div>
