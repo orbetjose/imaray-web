@@ -65,7 +65,7 @@ export default function Home() {
                 </a>
               </li>
               <li>
-                Película <br /> (Muy pronto)
+                <a href="https://app.amazecommerce.com/shop/imarayulloa" target="_blank">Shop</a>
               </li>
               <li className="text-purple">
                 <a href="mailto:imarobe42@gmail.com">Comprar tickets &#8599;</a>
